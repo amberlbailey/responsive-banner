@@ -2,12 +2,7 @@ html {
   font-family: Georgia, serif;
 }
 
-.image {
-  max-height: 500px;
-  position: relative;
-}
-
-.planet {
+.planet-content {
   color: #efefef;
   background-color: #495562;
 }
@@ -17,11 +12,26 @@ html {
   color: #fff;
 }
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 60em) {
 
-  .planet {
+  .btn-ghost {
+    border-color: #fff;
+    color: #efefef;
+  }
+
+  .planet-content {
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
     position: absolute;
+    bottom: 0;
     width: 100%;
+    background-color: transparent;
+  }
+
+  .banner {
+    overflow: hidden;
+    max-height: 500px;
+    position: relative;
+
   }
 
 }
