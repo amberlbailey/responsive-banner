@@ -1,0 +1,19 @@
+html {
+  font-family: Georgia, serif;
+}
+
+.background-image {
+  max-height: 500px;
+  position: absolute;
+}
+
+.planet {
+  position: relative;
+  color: #efefef;
+  background-color: #495562;
+}
+
+.btn {
+  border-color: #97a49b;
+  color: #fff;
+}
