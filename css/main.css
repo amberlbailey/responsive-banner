@@ -2,13 +2,12 @@ html {
   font-family: Georgia, serif;
 }
 
-.background-image {
+.image {
   max-height: 500px;
-  position: absolute;
+  position: relative;
 }
 
 .planet {
-  position: relative;
   color: #efefef;
   background-color: #495562;
 }
@@ -16,4 +15,13 @@ html {
 .btn {
   border-color: #97a49b;
   color: #fff;
+}
+
+@media only screen and (min-width: 35em) {
+
+  .planet {
+    position: absolute;
+    width: 100%;
+  }
+
 }
